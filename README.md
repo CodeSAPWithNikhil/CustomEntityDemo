@@ -4,7 +4,9 @@ In SAP's ABAP RESTful Application Programming Model (RAP), integrating remote OD
 
 Custom Entities:
 
-Custom Entities in RAP represent data models that don't directly correspond to database tables but instead retrieve data through custom logic, such as remote function calls. This approach is particularly useful when accessing data from external systems via Remote Function Calls (RFC). To implement a Custom Entity for a remote OData service:
+Custom Entities in RAP represent data models that don't directly correspond to database tables but instead retrieve data through custom logic, such as remote function calls. This approach is particularly useful when accessing data from external systems. 
+
+To implement a Custom Entity for a remote OData service:
 
 Define the Custom Entity: Specify the entity's structure, including elements and their data types.
 
@@ -28,6 +30,5 @@ Create the Service Consumption Model: Use the ABAP Development Tools (ADT) wizar
 Implement Outbound Service Calls: Utilize the generated proxy classes within your ABAP code to interact with the remote OData service, enabling operations like data retrieval and manipulation.
 
 This model streamlines the consumption of external OData services, promoting efficient integration and code management. 
-SAP COMMUNITY
 
-By leveraging Custom Entities and Service Consumption Models, developers can effectively integrate remote OData services into their ABAP applications, enhancing functionality and enabling seamless data access across systems.
+By leveraging Custom Entities and Service Consumption Models, developers can effectively integrate remote OData services into their RAP ABAP applications.
